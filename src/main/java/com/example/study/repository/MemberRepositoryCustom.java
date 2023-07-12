@@ -8,6 +8,8 @@ public interface MemberRepositoryCustom {
 
     List<Member> findByName(String name);
 
+
 //    List<Member> sort()(String 정렬조건);
 
+    List<Member> findUser(String nameParam, Integer ageParam);
 }
